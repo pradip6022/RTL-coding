@@ -1,0 +1,71 @@
+Parsing design file 'design.sv'
+Parsing design file 'testbench.sv'
+Top Level Modules:
+       mux_tb
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module mux_tb
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib -L/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib  -Wl,-rpath-link=./   objs/amcQw_d.o  _286_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs      -lvcsnew -ldistsimclient -lsimprofile -luclinative /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive          /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .574 seconds to compile + .436 seconds to elab + .519 seconds to link
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Sep  6 14:19 2026
+data_in_a:36
+data_in_b:3c
+sel:0
+data_out:3c
+-------------------
+data_in_a:7d
+data_in_b:e2
+sel:1
+data_out:7d
+-------------------
+data_in_a:0b
+data_in_b:df
+sel:1
+data_out:0b
+-------------------
+data_in_a:40
+data_in_b:f7
+sel:1
+data_out:40
+-------------------
+data_in_a:a6
+data_in_b:1b
+sel:1
+data_out:a6
+-------------------
+data_in_a:b5
+data_in_b:fa
+sel:1
+data_out:b5
+-------------------
+data_in_a:4e
+data_in_b:15
+sel:1
+data_out:4e
+-------------------
+data_in_a:7d
+data_in_b:72
+sel:0
+data_out:72
+-------------------
+data_in_a:96
+data_in_b:31
+sel:1
+data_out:96
+-------------------
+data_in_a:c4
+data_in_b:aa
+sel:1
+data_out:c4
+-------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100 ns
+CPU Time:      0.440 seconds;       Data structure size:   0.0Mb
+Sun Sep  6 14:19:47 2026
+Done
