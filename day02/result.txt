@@ -1,0 +1,40 @@
+# Allocation: Simulator allocated 5249 kB (elbread=427 elab2=4814 kernel=7 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: -------------------------------
+# KERNEL: [16], push: 0 pop: 1 full:1 empty: 1
+# KERNEL: False ..fifo is empty
+# KERNEL: -------------------------------
+# KERNEL: [26], push: 1 pop: 1 full:1 empty: 0
+# KERNEL: False ..the fifo can't be pushed anymore..
+# KERNEL: True ..fifo is ready for pop action
+# KERNEL: -------------------------------
+# KERNEL: [36], push: 1 pop: 1 full:0 empty: 1
+# KERNEL: True..the fifo can be pushed.
+# KERNEL: False ..fifo is empty
+# KERNEL: -------------------------------
+# KERNEL: [46], push: 1 pop: 0 full:1 empty: 0
+# KERNEL: False ..the fifo can't be pushed anymore..
+# KERNEL: -------------------------------
+# KERNEL: [56], push: 1 pop: 0 full:1 empty: 1
+# KERNEL: False ..the fifo can't be pushed anymore..
+# KERNEL: -------------------------------
+# KERNEL: [66], push: 0 pop: 1 full:0 empty: 0
+# KERNEL: True ..fifo is ready for pop action
+# KERNEL: -------------------------------
+# KERNEL: [76], push: 0 pop: 1 full:0 empty: 1
+# KERNEL: False ..fifo is empty
+# KERNEL: -------------------------------
+# KERNEL: [86], push: 1 pop: 1 full:1 empty: 0
+# KERNEL: False ..the fifo can't be pushed anymore..
+# KERNEL: True ..fifo is ready for pop action
+# KERNEL: -------------------------------
+# KERNEL: [96], push: 0 pop: 0 full:0 empty: 1
+# KERNEL: -------------------------------
+# KERNEL: [106], push: 0 pop: 1 full:1 empty: 1
+# KERNEL: False ..fifo is empty
+# KERNEL: False ..fifo is empty
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (29): $finish called.
+# KERNEL: Time: 126 ns,  Iteration: 0,  Instance: /tb,  Process: @INITIAL#16_2@.
+# KERNEL: stopped at time: 126 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
